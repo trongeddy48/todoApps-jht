@@ -1,0 +1,7 @@
+entity Todo {
+    name String required
+    description String
+    createdAt Instant
+    updatedAt Instant
+}
+paginate * with pagination
